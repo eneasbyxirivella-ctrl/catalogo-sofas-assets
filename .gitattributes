@@ -1,3 +1,5 @@
-catalog/**/ambiente/** filter=lfs diff=lfs merge=lfs -text
-catalog/**/estudio/**  filter=lfs diff=lfs merge=lfs -text
-catalog/**/cover.*     filter=lfs diff=lfs merge=lfs -text
+
+catalog/**/*.jpg !text !filter !merge !diff
+catalog/**/*.jpeg !text !filter !merge !diff
+catalog/**/*.png !text !filter !merge !diff
+catalog/**/*.webp !text !filter !merge !diff
